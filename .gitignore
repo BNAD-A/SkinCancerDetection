@@ -1,0 +1,3 @@
+"venv/"   # Ignorer les fichiers de l'environnement virtuel
+"__pycache__/"   # Ignorer les fichiers de cache Python
+"node_modules/"   # Ignorer les d‚pendances frontend
