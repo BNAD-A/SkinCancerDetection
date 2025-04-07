@@ -1,0 +1,18 @@
+workflows:
+  flutter_build:
+    name: Flutter Build Workflow
+    max_build_duration: 60
+    os: macos
+    flutter: stable
+    xcode: latest
+    android: true
+    ios: true
+    scripts:
+      - echo "Starting the build"
+    artifacts:
+      - build/
+    publishing:
+      twitter:
+        status: 'success'
+      slack:
+        status: 'success'

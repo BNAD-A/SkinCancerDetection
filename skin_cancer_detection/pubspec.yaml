@@ -1,0 +1,19 @@
+name: skin_cancer_detection
+description: A new Flutter project
+
+publish_to: 'none' # Remove this line if you want to publish to the pub.dev package repository
+
+environment:
+  sdk: "^3.7.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Ajoute ici d'autres dépendances
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
